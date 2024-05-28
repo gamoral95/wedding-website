@@ -40,8 +40,7 @@ main {
 }
 
 .centered-image {
-    width: 100%;
-    max-width: 600px;
+    width: 5%; /* Make the image 20x smaller */
     height: auto;
 }
 
