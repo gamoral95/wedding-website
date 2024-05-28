@@ -46,3 +46,20 @@
                 method: 'POST',
                 body: JSON.stringify({
                     name: data.get('name'),
+                    email: data.get('email'),
+                    attendance: data.get('attendance')
+                })
+            }).then(response => {
+                if (response.ok) {
+                    alert('RSVP submitted successfully!');
+                } else {
+                    alert('There was a problem with your submission.');
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+                alert('There was a problem with your submission.');
+            });
+        };
+    </script>
+</body>
+</html>
