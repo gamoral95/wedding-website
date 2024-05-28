@@ -40,16 +40,5 @@ main {
 }
 
 .centered-image {
-    width: 5%; /* Make the image 20x smaller */
-    height: auto;
-}
-
-footer {
-    background-color: #4a148c;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    width: 300px; /* Set the width to 300px */
+   
