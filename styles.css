@@ -40,7 +40,7 @@ main {
 }
 
 .centered-image {
-    width: 36000px; /* Set the width to 3600px */
+    width: 60%; /* Make the image 12 times larger */
     height: auto; /* Maintain the aspect ratio */
 }
 
