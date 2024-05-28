@@ -42,21 +42,7 @@
             e.preventDefault();
             const form = e.target;
             const data = new FormData(form);
-            fetch('YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL', {
+            fetch('https://script.google.com/macros/s/AKfycbxR7qKnsYFYzTGP12FNYFMynxBR6TDCp6SxGOUUaQFdnrMIo5QOImN8l7_QiGwSaQF-/exec', {
                 method: 'POST',
                 body: JSON.stringify({
                     name: data.get('name'),
-                    email: data.get('email'),
-                    attendance: data.get('attendance')
-                })
-            }).then(response => {
-                if (response.ok) {
-                    alert('RSVP submitted successfully!');
-                } else {
-                    alert('There was a problem with your submission.');
-                }
-            });
-        };
-    </script>
-</body>
-</html>
