@@ -35,7 +35,7 @@
         </form>
     </main>
     <footer>
-        <p>&copy; 2024 Sarp & Bilge's Wedding</p>
+        <p>&copy; 2024 Bilge & Sarp's Wedding</p>
     </footer>
     <script>
         document.getElementById('rsvp-form').onsubmit = function(e) {
@@ -48,7 +48,10 @@
                     name: data.get('name'),
                     email: data.get('email'),
                     attendance: data.get('attendance')
-                })
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
             }).then(response => {
                 if (response.ok) {
                     alert('RSVP submitted successfully!');
