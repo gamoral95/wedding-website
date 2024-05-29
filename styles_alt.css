@@ -20,12 +20,13 @@ body {
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     z-index: 1000;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .sidebar h1 {
     font-size: 36px;
     margin-bottom: 30px;
+    font-family: 'Great Vibes', cursive;
 }
 
 .sidebar nav ul {
@@ -42,7 +43,8 @@ body {
 .sidebar nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
     display: block;
     padding: 10px;
     border-radius: 5px;
@@ -76,12 +78,13 @@ body {
 .hero h2 {
     font-size: 48px;
     margin: 0;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero p {
     font-size: 24px;
     margin: 10px 0;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero .btn {
@@ -101,6 +104,7 @@ body {
 .about h2, .gallery h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
 }
 
 .gallery .image-container {
