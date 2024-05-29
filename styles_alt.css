@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -13,6 +13,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    font-family: 'Great Vibes', cursive;
 }
 
 header .container {
@@ -24,7 +25,7 @@ header .container {
 
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 36px;
     color: #333;
 }
 
@@ -46,7 +47,7 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url('hero-image.jpg'); /* Replace with an actual image URL */
+    background-image: url('066A0022.jpg'); /* Replace with an actual image URL */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -55,6 +56,7 @@ header nav ul li a {
     align-items: center;
     color: #fff;
     text-align: center;
+    font-family: 'Great Vibes', cursive;
 }
 
 .hero-content {
@@ -113,4 +115,5 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    font-family: 'Great Vibes', cursive;
 }
