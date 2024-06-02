@@ -65,16 +65,24 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 .hero {
     text-align: center;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50vh; /* Adjust to half the height of the viewport */
 }
 
 .hero-content {
     padding: 20px;
     border-radius: 10px;
+    position: absolute;
+    bottom: 25%; /* Adjust to position in the middle of the bottom half */
 }
 
 .hero h2 {
@@ -168,6 +176,19 @@ body {
         padding: 10px;
         align-items: center;
         text-align: center; /* Ensure text is centered */
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .hero-content {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .hero .btn {
+        margin-bottom: 20px;
     }
 
     .hero h2 {
