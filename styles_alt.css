@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,7 +20,6 @@ body {
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     z-index: 1000;
-    font-family: 'Playfair Display', serif;
 }
 
 .sidebar h1 {
@@ -43,7 +42,6 @@ body {
 .sidebar nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Playfair Display', serif;
     font-size: 18px;
     display: block;
     padding: 10px;
@@ -78,13 +76,11 @@ body {
 .hero h2 {
     font-size: 48px;
     margin: 0;
-    font-family: 'Playfair Display', serif;
 }
 
 .hero p {
     font-size: 24px;
     margin: 10px 0;
-    font-family: 'Playfair Display', serif;
 }
 
 .hero .btn {
@@ -104,7 +100,6 @@ body {
 .about h2, .gallery h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
 }
 
 .gallery .image-container {
