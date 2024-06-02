@@ -82,7 +82,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     position: absolute;
-    bottom: 20%; /* Adjust to position in the middle of the bottom half */
+    bottom: 30%; /* Move the text up by one line */
 }
 
 .hero h2 {
