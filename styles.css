@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     z-index: 1000;
     height: 100vh; /* Extend the shadow to the bottom */
     position: fixed; /* Ensure sidebar stays fixed */
@@ -82,7 +82,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     position: absolute;
-    bottom: 20%; /* Adjust to position in the middle of the bottom half */
+    bottom: 25%; /* Adjust to position in the middle of the bottom half */
 }
 
 .hero h2 {
@@ -102,7 +102,6 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    margin-top: 20px; /* Add margin to move button below text */
 }
 
 .about, .invitation, .rsvp {
