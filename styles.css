@@ -117,11 +117,7 @@ body {
 
 /* Specific adjustment for About section on home page */
 .about {
-    margin-top: 100px; /* Move the rest of the text further down */
-}
-
-.about p {
-    margin-top: 20px; /* Add space between "About Our Wedding" and its paragraph */
+    margin-top: 80px; /* Move the rest of the text 2 lines below */
 }
 
 .attendees {
@@ -209,16 +205,8 @@ body {
         font-size: 18px;
     }
 
-    .about {
-        margin-top: 50px;
-    }
-
     .about h2, .invitation h2, .rsvp h2 {
         font-size: 28px;
-    }
-
-    .about p {
-        margin-top: 10px;
     }
 
     .attendees {
