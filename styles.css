@@ -127,11 +127,11 @@ body {
     color: #fff;
 }
 
-/* Center text on web view */
+/* Center text on web view and adjust vertical position */
 @media (min-width: 769px) {
     .content {
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start; /* Adjust to move text up */
+        padding-top: 100px; /* Add padding to position text properly */
     }
 }
 
