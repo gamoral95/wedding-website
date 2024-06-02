@@ -95,16 +95,6 @@ body {
     margin: 10px 0;
 }
 
-.hero .btn {
-    background-color: #fff;
-    color: #333;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 20px; /* Add margin to move button below text */
-}
-
 .about, .invitation, .rsvp {
     text-align: center;
     margin-bottom: 50px;
@@ -117,7 +107,11 @@ body {
 
 /* Specific adjustment for About section on home page */
 .about {
-    margin-top: 80px; /* Move the rest of the text 2 lines below */
+    margin-top: 100px; /* Move the rest of the text further down */
+}
+
+.about p {
+    margin-top: 20px; /* Add space between "About Our Wedding" and its paragraph */
 }
 
 .attendees {
@@ -193,10 +187,6 @@ body {
         margin-bottom: 20px;
     }
 
-    .hero .btn {
-        margin-bottom: 20px;
-    }
-
     .hero h2 {
         font-size: 36px;
     }
@@ -205,8 +195,16 @@ body {
         font-size: 18px;
     }
 
+    .about {
+        margin-top: 50px;
+    }
+
     .about h2, .invitation h2, .rsvp h2 {
         font-size: 28px;
+    }
+
+    .about p {
+        margin-top: 10px;
     }
 
     .attendees {
