@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
     height: 100vh;
     color: #333;
     background-image: url('066A0022.jpg');
@@ -19,9 +18,10 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     height: 100vh; /* Extend the shadow to the bottom */
+    position: fixed; /* Ensure sidebar stays fixed */
 }
 
 .sidebar h1 {
@@ -56,6 +56,7 @@ body {
 }
 
 .content {
+    margin-left: 250px; /* Create space for the fixed sidebar */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -63,7 +64,7 @@ body {
     align-items: center;
     color: #fff;
     padding: 20px;
-    text-align: center; /* Ensure text is centered */
+    text-align: center;
 }
 
 .hero {
@@ -127,14 +128,6 @@ body {
     color: #fff;
 }
 
-/* Center text on web view and adjust vertical position */
-@media (min-width: 769px) {
-    .content {
-        justify-content: flex-start; /* Adjust to move text up */
-        padding-top: 100px; /* Add padding to position text properly */
-    }
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -147,6 +140,7 @@ body {
         flex-direction: row;
         justify-content: space-around;
         padding: 10px;
+        position: relative; /* Change position for mobile view */
     }
 
     .sidebar h1 {
@@ -170,6 +164,7 @@ body {
     }
 
     .content {
+        margin-left: 0; /* Remove margin for mobile view */
         padding: 10px;
         align-items: center;
         text-align: center; /* Ensure text is centered */
