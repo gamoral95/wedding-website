@@ -101,3 +101,25 @@ body {
     font-size: 36px;
     margin-bottom: 20px;
 }
+
+.attendees {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.attendees h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.attendees ul {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+}
